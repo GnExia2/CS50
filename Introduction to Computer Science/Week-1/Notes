@@ -1,0 +1,60 @@
+Week 1 - C
+
+printf("Hello World")
+//prints hello world onto console
+
+file names need to use .c
+ex: hello.c
+
+clang - name of program that exists to compile code
+compiles the code
+ex: clang hello.c
+
+  clang -o hello hello.c
+  //you can rename file to whatever you want
+  //clan -o {what you want} {filename}
+
+  clang -o string string.c -lcs50
+  //added line that tells computer to link with CS50 source
+
+./hello
+//runs program hello
+
+string answer = get_string("What's your name?\n");
+//set variable to answer and ask for string "whats your name?"
+
+string is a sequence within double quotes
+ex: "the quick brown fox jumped over the lazy dog"
+
+STORING NUMBER
+
+
+
+int counter = 0;
+//storing a number
+
+counter = counter + 1
+counter++
+//counter is variable which is "initial number" + 1
+
+if (condition){
+  do this
+} do that
+//if statement that checks that if condition is true, do the line of code inside, otherwise do outside
+
+while (condition){
+  do this
+}
+// while the condition is true, do this
+
+bool - true/false
+char - single character
+int - integer
+string - thing inside double quotes
+long - wider number that can go higher than 4 billion
+
+
+CS_50 library
+get_char
+get_string
+get_bool
