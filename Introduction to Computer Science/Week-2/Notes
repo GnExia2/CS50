@@ -1,0 +1,40 @@
+Week 2 - Arrays
+EDX URL - https://courses.edx.org/courses/course-v1:HarvardX+CS50+X/courseware/b94adcd6bd6b4e69b2af7eef0d828674/7e8a56384ddf4142a59bb01b65629c52/?child=first
+INSTRUCTOR PROVIDED NOTES - https://cs50.harvard.edu/x/2020/notes/2/
+
+preprocessing - grabs any code at the top with #include and replaces with code within your own code
+
+compiling - converting any code into assembly code
+//assembly code -> https://www.tutorialspoint.com/assembly_programming/assembly_introduction.html
+
+assembling - built in function that converts assembly code -> 0's and 1's
+
+linking - combining all 0 and 1 from multiple files
+hello.c cs50.c printf.c
+
+Grace Hopper - Mark 2 System
+
+ide.cs50.io/
+(works with firefox and chrome, not safari)
+
+------- DEBUGGING -------
+
+help50 make (your c program)
+print code out to help debug
+
+debug50 ./(your program)
+check50 ./(your program)
+style50
+
+CS50.readthedocs.io/style/c/
+
+CS50 IDE
+
+Rubber Duck Debugging!! - talking to a rubber ducky about what your code should be doing
+
+
+
+------- DESIGN -------
+
+Array - allows for data structure
+[1,2,3]
