@@ -1,0 +1,28 @@
+Week 3 - Algorithms
+EDX URL - https://cs50.harvard.edu/x/2020/weeks/3/
+INSTRUCTOR PROVIDED NOTES - https://cs50.harvard.edu/x/2020/notes/3/
+
+--------------------------------------------------------------------------------------------------------------
+
+Linear search - looking through each item in order
+  for i from 0 to (n-1)
+binary search - divide and conquer, look in the middle and go higher or lower according the parameter
+
+big 0 notation - on the order of, referring to efficiency of how well your code worked.
+
+O(n2) - bubble sort
+
+O(n log n)
+
+O(n) - (linear search)
+
+O(log n) - (binary search)
+
+--------------------------------------------------------------------------------------------------------------
+
+typedef struct
+{
+    string name;
+    string number;
+}
+person;
