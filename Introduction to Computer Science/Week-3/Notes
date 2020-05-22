@@ -10,7 +10,7 @@ binary search - divide and conquer, look in the middle and go higher or lower ac
 
 big 0 notation - on the order of, referring to efficiency of how well your code worked.
 
-O(n2) - bubble sort
+O(n2) - bubble sort, selection sort
 
 O(n log n)
 
